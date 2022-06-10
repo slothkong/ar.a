@@ -24,32 +24,34 @@
 				height="9.584"
 				rotation="-90 0 0" 
             	                src="#photo1"
-			>
-			</a-image>
+			></a-image>
 		</a-marker>
 			
 		
 		<a-marker id="marker2" type="barcode" value="7">
-			<!-- 
-			<a-image
-				id="image2"
-				width="2"
-				height="2.66"
+			<a-image id="image2"
+				width="7.195"
+				height="9.584"
+				rotation="-90 0 0" 
             	                src="#photo1"
-			>
-			</a-image>
-			-->
-			<a-plane
-				color="white"
-				rotation="-90 0 0"
-				position="0 -0.25 0"
-				width="2" 
-				width="2.66"
-				material="color:white"
-				src="#photo1" 
-			>
+			></a-image>
+			<a-plane 
+				 color="white" 
+				 rotation="-90 0 0" 
+				 position="0 -0.3 0" 
+				 width="3" 
+				 material="transparent: true; opacity: 0.75"
+			></a-plane>
+			<a-text 
+				value="Cutest clarinet player ever!" 
+				font="https://cdn.aframe.io/fonts/Roboto-msdf.json" 
+				color="#32a881" 
+				rotation="-90 0 0" 
+				align="center" 
+				scale="2 2 2"
+			></a-text>
+			
 		</a-marker>
-
 		<a-entity camera></a-entity>		
 		</a-scene>
 	</body>
