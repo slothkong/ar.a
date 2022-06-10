@@ -15,7 +15,7 @@
 
 		<a-assets>
 			<img id="photo1" src="./README.res/photo1.png">
-			<!-- <img id="photo2" src="./README.res/photo2.png"> -->
+			<img id="photo2" src="./README.res/photo1.png">
 		</a-assets>
 
 		<a-marker id="marker1" type="barcode" value="6">
@@ -23,8 +23,24 @@
 				width="7.195"
 				height="9.584"
 				rotation="-90 0 0" 
-            	                src="#photo1"
+            	                src="#photo2"
 			></a-image>
+			<a-plane 
+				 color="#d5dde3" 
+				 rotation="-90 0 0" 
+				 position="0 1 3"
+				 width="8"
+				 material="transparent: true; opacity: 0.70"
+			></a-plane>
+			<a-text 
+				value="Wasn't easy but You did it!! /(^x^)\" 
+				font="https://cdn.aframe.io/fonts/Roboto-msdf.json" 
+				color="#b688bf" 
+				rotation="-90 0 0" 
+				align="center" 
+				scale="2 2 2"
+				position="0 1.1 3"
+			></a-text>
 		</a-marker>
 			
 		
@@ -38,20 +54,19 @@
 			<a-plane 
 				 color="#d5dde3" 
 				 rotation="-90 0 0" 
-				 position="0 -1 0" 
+				 position="0 1 3"
 				 width="8"
 				 material="transparent: true; opacity: 0.70"
 			></a-plane>
 			<a-text 
-				value="Cutest clarinet player ever ★~(◡‿◕✿)" 
+				value="Cutest clarinet player ever ~~OoO*"  
 				font="https://cdn.aframe.io/fonts/Roboto-msdf.json" 
 				color="#32a881" 
 				rotation="-90 0 0" 
 				align="center" 
 				scale="2 2 2"
-				position="0 -1 0"
+				position="0 1.1 3"
 			></a-text>
-			
 		</a-marker>
 		<a-entity camera></a-entity>		
 		</a-scene>
